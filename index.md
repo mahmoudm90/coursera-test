@@ -1,46 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Mod-assignment</title>
-	<link rel="stylesheet" href="mod2_solution/css/styles.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mod3_Solution</title>
+    <link rel="stylesheet" href="mod3_solution/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mod3_solution/css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-	<h1>Our Menu</h1>
-	<div class="container">
-		<div class="row">
-  			<section class="col-ds-4 col-tb-6 col-mb-12">
-  				<h3 class="chicken">Chicken</h3>
-  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  			</section>
-  			<section class="col-ds-4 col-tb-6 col-mb-12">
-  				<h3 class="beef">Beef</h3>
-  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  			</section>
-  			<section class="col-ds-4 col-tb-12 col-mb-12">
-  				<h3 class="sushi">Sushi</h3>
-  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  			</section>
-  			
-  			
- 		</div>
- 	</div>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand pull-left">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
 
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse ">
+          <ul id="nav-list" class="nav navbar-nav visible-xs">
+          
+            <li class="text-center">
+              <a href="#" >
+                 Chicken</a>
+            </li>
+            <li class="text-center">
+              <a href="#" >
+                 Beef</a>
+            </li>
+            <li class="text-center">
+              <a href="#" >
+                 Sushi</a>
+            </li>
+            
+           
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+        
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+  <div id="main-content" class="container">
+    <h1 class="text-center">Our Menu</h1>
+    <section class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa.  Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa.Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Maiores molestiae fugit hic ducimus unde, itaque repellat totam, quo vero architecto facere, eligendi quia error, omnis tempora. Voluptate quia dolorem debitis! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere animi dicta error laboriosam ipsam eligendi culpa odit deleniti. Nobis aut at, maiores voluptatem, voluptate fugit hic accusantium quam cumque ipsa.
+
+      </div>
+      
+    </section>
+  </div>
+
+  
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="mod3_solution/js/jquery-2.1.4.min.js"></script>
+  <script src="mod3_solution/js/bootstrap.min.js"></script>
+  <script src="mod3_solution/js/script.js"></script>
 </body>
 </html>
